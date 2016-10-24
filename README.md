@@ -1,3 +1,3 @@
 # code_for_robot
  Code created in C++ language in order to control and move 6 legged walking machine. Apart from moving it also contains
- algorithms for image proccessing. 
+ algorithms for image proccessing. The include directory contains the headers of classes and functions, the src directory contains bodies of classes and functions. The classes in project: base class stdafx-contains the physical values of length of legs, tables of servos in legs and their values, class servo-contains commands to control one servo and power it off, class leg- contains commands to steer 3 servos in one leg and to power it off, calculates trajectories for tripod and crawling gait,class camera- it contains commands to detect round objects and calculate distances from camera to the objects, class robot-this class integrates and manages every proccess, it contains commands to control 6 legs and to move robot by distances calculated in class camera  
